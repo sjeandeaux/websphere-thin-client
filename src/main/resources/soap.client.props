@@ -1,0 +1,2 @@
+com.ibm.ssl.alias=DefaultSSLSettings
+com.ibm.SOAP.requestTimeout=600

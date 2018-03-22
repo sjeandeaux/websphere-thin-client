@@ -1,0 +1,23 @@
+com.ibm.ssl.alias=DefaultSSLSettings
+com.ibm.ssl.protocol=SSL
+com.ibm.ssl.securityLevel=HIGH
+com.ibm.ssl.trustManager=SunX509
+com.ibm.ssl.keyManager=SunX509
+com.ibm.ssl.contextProvider=SunJSSE
+com.ibm.ssl.enableSignerExchangePrompt=true
+
+# Keystore information
+com.ibm.ssl.keyStoreName=ClientDefaultKeyStore
+com.ibm.ssl.keyStore=${user.root}/etc/keystore.jks
+com.ibm.ssl.keyStorePassword=KeyStorePassword
+com.ibm.ssl.keyStoreType=JKS
+com.ibm.ssl.keyStoreProvider=SUN
+com.ibm.ssl.keyStoreFileBased=true
+
+# Truststore information
+com.ibm.ssl.trustStoreName=ClientDefaultTrustStore
+com.ibm.ssl.trustStore=${user.root}/etc/truststore.jks
+com.ibm.ssl.trustStorePassword=KeyStorePassword
+com.ibm.ssl.trustStoreType=JKS
+com.ibm.ssl.trustStoreProvider=SUN
+com.ibm.ssl.trustStoreFileBased=true
