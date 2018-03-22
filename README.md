@@ -6,7 +6,7 @@ TIPS:
 
 ## installation
 
-## All you need is love and this following jars
+## All you need is love and these following jars
 
 * com.ibm.ws.admin.client_8.5.0.jar (/opt/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.admin.client_8.5.0.jar)
 * com.ibm.ws.security.crypto.jar (/opt/IBM/WebSphere/AppServer/plugins/com.ibm.ws.security.crypto.jar)

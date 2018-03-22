@@ -1,0 +1,12 @@
+sudo: required
+
+language: java
+
+services:
+  - docker
+
+before_install:
+- make local-repo
+
+script:
+- mvn clean verify
