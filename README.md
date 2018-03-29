@@ -1,5 +1,7 @@
 # websphere thin client
 
+[![Build Status](https://travis-ci.org/sjeandeaux/websphere-thin-client.svg?branch=develop)](https://travis-ci.org/sjeandeaux/websphere-thin-client)
+
 TIPS:
 
 * [console](http://localhost:9060/ibm/console)
