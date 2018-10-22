@@ -35,7 +35,10 @@ build:rm ## build the docker image
 rm: ## remove the container
 	docker rm -f websphere-thin-client-test || true
 
-wonderful-script: ## run wonderful-script.py
+package: ## run mvn clean package
+	mvn clean package
+
+wonderful-script: package ## run wonderful-script.py
 	docker exec -ti websphere-thin-client-test /current/test/wonderful-script.sh
 
 src/main/*: ## update the scripts jython
